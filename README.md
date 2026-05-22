@@ -1,40 +1,70 @@
-# ProjetoDescomplica
+# Projeto Angular Descomplica
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.11.
+Este é um aplicativo Angular simples criado para demonstrar uma interface de login e navegação de páginas.
 
-## Development server
+## Sobre o projeto
 
-To start a local development server, run:
+- Nome do projeto: `Projeto Angular Descomplica`
+- Framework: Angular 21
+- Objetivo principal: implementação de uma aplicação SPA com autenticação e rotas.
 
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Scripts úteis
 
 ```bash
-ng generate component component-name
+npm install
+npm start
+npm test
+npx cypress open
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Como executar localmente
+
+1. Instale as dependências:
 
 ```bash
-ng generate --help
+npm install
 ```
 
-## Building
-
-To build the project run:
+2. Inicie o servidor de desenvolvimento:
 
 ```bash
-ng build
+npm start
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+3. Abra o navegador em:
+
+```bash
+http://localhost:4200/
+```
+
+## Testes
+
+### Testes unitários
+
+Execute o comando:
+
+```bash
+npm test
+```
+
+### Testes end-to-end
+
+Se o Cypress estiver configurado, execute:
+
+```bash
+npx cypress open
+```
+
+## Estrutura do projeto
+
+- `src/app/` — componentes e rotas principais
+- `src/app/features/` — páginas do sistema
+- `src/app/shared/` — componentes compartilhados como cabeçalho e rodapé
+- `src/app/guards/` — guardas de rota
+
+## Observação
+
+Certifique-se de que o repositório no GitHub esteja nomeado corretamente como `Projeto-Angular-Descomplica`, pois o nome do projeto é `Descomplica` e não `Decomplica`.
 
 ## Running unit tests
 
